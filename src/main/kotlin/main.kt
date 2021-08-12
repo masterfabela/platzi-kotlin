@@ -7,5 +7,6 @@ fun main() {
     //control.controlWhen()
     //Loops().loopWhile()
     //Loops().loopDoWhile()
-    Loops().loopFor()
+    //Loops().loopFor()
+    NullSafety().tryCatch()
 }
