@@ -6,5 +6,6 @@ fun main() {
     //control.controlIf()
     //control.controlWhen()
     //Loops().loopWhile()
-    Loops().loopDoWhile()
+    //Loops().loopDoWhile()
+    Loops().loopFor()
 }
