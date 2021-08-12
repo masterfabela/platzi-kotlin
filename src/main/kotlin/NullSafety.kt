@@ -4,7 +4,6 @@ import java.lang.NullPointerException
 class NullSafety {
     fun tryCatch() {
         var name: String? = null
-
         try {
             throw NullPointerException("Referencia nula")
         } catch (exception: NullPointerException) {
@@ -12,7 +11,7 @@ class NullSafety {
         } finally {
             println("Finalmente ha ocurrido un error... cerrando aplicacion")
         }
-        
+
         val firstValue = 10
         val secondValue = 0
         val result: Int = try {
@@ -21,5 +20,11 @@ class NullSafety {
             0
         }
         println(result)
+    }
+
+    fun elvis() {
+        var name: String? = null
+        val nameLength: Int = name?.length ?: 0
+        println(nameLength)
     }
 }
