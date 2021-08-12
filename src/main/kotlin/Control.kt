@@ -1,6 +1,8 @@
 class Control {
     fun controlIf() {
         val name = "Maria"
+        println("Tu nombre es $name")
+        println("Tu nombre tiene ${name.length} letras")
         if (name.isNotEmpty()) {
             println("El largo de nuestra variable nombre es ${name.length}")
         } else {

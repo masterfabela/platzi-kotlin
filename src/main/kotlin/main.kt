@@ -4,5 +4,7 @@ fun main() {
     //Variables().main()
     val control = Control()
     //control.controlIf()
-    control.controlWhen()
+    //control.controlWhen()
+    //Loops().loopWhile()
+    Loops().loopDoWhile()
 }
