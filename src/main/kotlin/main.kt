@@ -9,5 +9,7 @@ fun main() {
     //Loops().loopDoWhile()
     //Loops().loopFor()
     //NullSafety().tryCatch()
-    NullSafety().elvis()
+    //NullSafety().elvis()
+    //Collections().lists();
+    Collections().array();
 }
