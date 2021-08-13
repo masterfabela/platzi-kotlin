@@ -10,7 +10,8 @@ fun main() {
     //Loops().loopFor()
     //NullSafety().tryCatch()
     //NullSafety().elvis()
-    //Collections().lists();
-    //Collections().array();
-    Collections().orderLists()
+    //Collections().lists()
+    //Collections().array()
+    //Collections().orderLists()
+    Collections().maps()
 }
