@@ -25,6 +25,6 @@ class NullSafety {
     fun elvis() {
         var name: String? = null
         val nameLength: Int = name?.length ?: 0
-        println(nameLength)
+        println(nameLength) // 0
     }
 }

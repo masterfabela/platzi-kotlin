@@ -1,6 +1,6 @@
 class Control {
     fun controlIf() {
-        val name = "Maria"
+        var name = "Maria"
         println("Tu nombre es $name")
         println("Tu nombre tiene ${name.length} letras")
         if (name.isNotEmpty()) {
@@ -8,6 +8,7 @@ class Control {
         } else {
             println("Error la variable esta vacia")
         }
+        name = "Pedro"
         val message: String =
             when {
                 name.length > 4 -> {
