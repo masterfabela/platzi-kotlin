@@ -11,5 +11,6 @@ fun main() {
     //NullSafety().tryCatch()
     //NullSafety().elvis()
     //Collections().lists();
-    Collections().array();
+    //Collections().array();
+    Collections().orderLists()
 }
