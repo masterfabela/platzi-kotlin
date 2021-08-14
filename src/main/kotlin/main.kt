@@ -15,5 +15,6 @@ fun main() {
     //Collections().orderLists()
     //Collections().maps()
     //Collections().sets()
-    Functions().functions()
+    //Functions().functions()
+    Functions().functionsParams()
 }
