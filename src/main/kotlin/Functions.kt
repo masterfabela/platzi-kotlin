@@ -7,11 +7,11 @@ class Functions {
         printName(name = "Jose Ramon", lastName = "Vieites")
     }
 
-    fun printName(name: String, lastName: String, lastName2: String = "") {
+    private fun printName(name: String, lastName: String, lastName2: String = "") {
         println("Mi nombre completo es $name $lastName $lastName2")
     }
 
-    fun String.randomCase(): String {
+    private fun String.randomCase(): String {
         return when ((0..1).random()) {
             0 -> this.uppercase()
             else -> this.lowercase()
