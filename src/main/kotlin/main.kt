@@ -16,5 +16,6 @@ fun main() {
     //Collections().maps()
     //Collections().sets()
     //Functions().functions()
-    Functions().functionsParams()
+    //Functions().functionsParams()
+    Functions().lambdas()
 }

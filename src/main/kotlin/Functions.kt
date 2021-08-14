@@ -7,6 +7,16 @@ class Functions {
         printName(name = "Jose Ramon", lastName = "Vieites")
     }
 
+    fun lambdas() {
+        val myLambda: (String) -> Int = { valor -> valor.length }
+        println(myLambda("Hola mundo"))
+
+        val greetings = listOf("Hello", "Hola", "Ciao")
+        val greetingsLong = greetings.map(myLambda)
+        greetings.map(myLambda)
+        println(greetingsLong)
+    }
+
     private fun printName(name: String, lastName: String, lastName2: String = "") {
         println("Mi nombre completo es $name $lastName $lastName2")
     }
