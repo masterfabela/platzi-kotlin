@@ -17,5 +17,6 @@ fun main() {
     //Collections().sets()
     //Functions().functions()
     //Functions().functionsParams()
-    Functions().lambdas()
+    //Functions().lambdas()
+    Functions().highOrderFunctions()
 }

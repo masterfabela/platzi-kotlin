@@ -13,8 +13,20 @@ class Functions {
 
         val greetings = listOf("Hello", "Hola", "Ciao")
         val greetingsLong = greetings.map(myLambda)
-        greetings.map(myLambda)
         println(greetingsLong)
+    }
+
+    fun highOrderFunctions() {
+        println(superFunction(initialValue = "Jose Ramon", block = { name -> name.length }))
+        println(inceptionFunction("Jose Ramon")())
+    }
+
+    fun superFunction(initialValue: String, block: (String) -> Int): Int {
+        return block(initialValue)
+    }
+
+    fun inceptionFunction(name: String): () -> String {
+        return { "Hola desde la lambda $name" }
     }
 
     private fun printName(name: String, lastName: String, lastName2: String = "") {
