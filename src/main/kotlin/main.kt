@@ -1,3 +1,5 @@
+import com.sun.source.tree.Scope
+
 const val PI = 3.1416
 
 fun main() {
@@ -20,5 +22,6 @@ fun main() {
     //Functions().lambdas()
     //Functions().highOrderFunctions()
     //ScopeFunctions().let()
-    ScopeFunctions().with()
+    //ScopeFunctions().with()
+    ScopeFunctions().run()
 }
