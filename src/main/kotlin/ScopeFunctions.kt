@@ -39,4 +39,13 @@ class ScopeFunctions {
             println("La cantidad de colores es $size")
         }
     }
+
+    fun also() {
+        val mobiles = mutableListOf("Google Pixel 2XL", "Google Pixel 4a", "Huawei Redmi 9", "Xiaomi mi a3")
+            .also { list ->
+                println("El valor original de la lista es $list")
+                list.removeIf { mobile -> mobile.contains("Google") }
+            }.asReversed()
+        println(mobiles)
+    }
 }
