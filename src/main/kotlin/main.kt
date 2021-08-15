@@ -25,5 +25,6 @@ fun main() {
     //ScopeFunctions().with()
     //ScopeFunctions().run()
     //ScopeFunctions().apply()
-    ScopeFunctions().also()
+    //ScopeFunctions().also()
+    Ball8().main()
 }
