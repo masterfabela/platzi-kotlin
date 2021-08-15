@@ -25,4 +25,18 @@ class ScopeFunctions {
             }
         println(mobiles)
     }
+
+    fun apply() {
+        val mobiles = mutableListOf("Google Pixel 2XL", "Google Pixel 4a", "Huawei Redmi 9", "Xiaomi mi a3")
+            .apply {
+                removeIf { mobile -> mobile.contains("Google") }
+            }
+        println(mobiles)
+
+        val colors: MutableList<String>? = mutableListOf("Amarillo", "Azul", "Rojo")
+        colors?.run {
+            println("Nuestros colores son $this")
+            println("La cantidad de colores es $size")
+        }
+    }
 }

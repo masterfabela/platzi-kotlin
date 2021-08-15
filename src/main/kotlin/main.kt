@@ -24,4 +24,5 @@ fun main() {
     //ScopeFunctions().let()
     //ScopeFunctions().with()
     ScopeFunctions().run()
+    ScopeFunctions().apply()
 }
