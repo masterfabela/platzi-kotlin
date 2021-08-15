@@ -8,4 +8,12 @@ class ScopeFunctions {
             println(value)
         }
     }
+
+    fun with() {
+        val colors = listOf("Azul", "Amarillo", "Rojo")
+        with(colors) {
+            println("Nuestros colores son $this")
+            println("Esta lista tiene una cantidad de colores de $size")
+        }
+    }
 }
